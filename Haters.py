@@ -600,8 +600,8 @@ class dump_ulti:
 		jalan(""+war+"Name   : "+I+nama+Q+"\n")
 		if nama == "Name Not Found  ":
 			time.sleep(2);dump_ulti()
-		os.system("rm -rf /storage/emulated/0/allinone.txt")
-		namq = ("allinone")
+		os.system("rm -rf /storage/emulated/0/SHANI.txt")
+		namq = ("SHANI")
 		if namq == "" or namq == " ":
 			namq = uuid.uuid4().hex[:10].upper()
 		dump = open('.janganedit','w') 

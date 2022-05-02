@@ -182,21 +182,18 @@ bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "0
 ## logo 
 logo="""\033[1;93m
 
-\033[1;93m
-##    ##    ###     ######  #### ##    ## 
- \033[1;97m##  ##    ## ##   ##    ##  ##  ###   ## 
-  \033[1;93m####    ##   ##  ##        ##  ####  ## 
-   \033[1;97m##    ##     ##  ######   ##  ## ## ## 
-   \033[1;93m##    #########       ##  ##  ##  #### 
-   \033[1;97m##    ##     ## ##    ##  ##  ##   ### 
-   \033[1;93m##    ##     ##  ######  #### ##    ## 
-
-
+\033[1;93m /$$$$$$$$ /$$$$$$ /$$       /$$$$$$$$
+\033[1;97m| $$_____/|_  $$_/| $$      | $$_____/
+\033[1;93m| $$        | $$  | $$      | $$      
+\033[1;97m| $$$$$     | $$  | $$      | $$$$$   
+\033[1;93m| $$__/     | $$  | $$      | $$__/   
+\033[1;97m| $$        | $$  | $$      | $$      
+\033[1;93m| $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+\033[1;97m|__/      |______/|________/|________/                                                                              
  [*]=============================================
-    \033[91mAuthor   : Y4S1N
-    \033[92mFacebook : Muhammad Yasin
-    \033[93mTeam    : YASIN X F4D11
-    \033[97mContact  : 03305967095
+    \033[91mAuthor   : Zeeshan Altaf
+    \033[92mFacebook : Zeeshan Altaf
+    \033[97mContact  : 0311**6*57*
  [*]=============================================
    \033[1;36m  USE AIRPLANE MODE IF NO RESULT \033[1;32m
  [*]============================================="""
@@ -282,7 +279,7 @@ class menu:
 		jenis_hp = name_hp.replace("product: ", "")
 		jenis_os = os_.replace("os: ", "")
 		jenis_ly = ly.replace("layout: ", "")
-		print ("[✓] YASIN ONE MAN ARMY")
+		print ("[✓] SHANI AP KA JEEJU")
 		print ("[✓] Premium Cloning tool")
 		print(f"\x1b[1;97m[*]=============================================")
 		print ("")
@@ -656,7 +653,7 @@ class lonte__:
 				except:pass
 			laxk.close()
 		except KeyError:pass
-		sys.stdout.write("\r%s[%sZAHID%s] COLLECTED IDZ •> %s"%(Q,pilih([U,I,K,M,C]),Q, len(open('/sdcard/'+mamk+'.txt','r').readlines()))
+		sys.stdout.write("\r%s[%sSHANI%s] COLLECTED IDZ •> %s"%(Q,pilih([U,I,K,M,C]),Q, len(open('/sdcard/'+mamk+'.txt','r').readlines()))
 		); sys.stdout.flush()
 class menu:
 	def __init__(self):

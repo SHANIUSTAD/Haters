@@ -297,16 +297,16 @@ class menu:
 		elif ba in ["1","01"]:
 			dump_ulti()
 			sort()
-			os.system("python Brand.py")
+			os.system("python3 Haters.py")
 		elif ba in ["2","02"]:
 			sort()
 			exit()
 		elif ba in ["3","03"]:
 			msort()
-			os.system("python Brand.py")
+			os.system("python3 Haters.py")
 		elif ba in ["4","04"]:
 			dubb()
-			os.system("python Brand.py")
+			os.system("python3 Haters.py")
 		elif ba in ["0","00"]:
 			jalan(war+"Thank You For Using My Script   ")
 			os.system("rm -rf .login.txt")
@@ -316,16 +316,16 @@ class menu:
 class dubb:
 	def __init__(self):
 		file = input ("[+] input path : ")
-		os.system('sort -r "'+file+'" | uniq > /sdcard/Zahid')
+		os.system('sort -r "'+file+'" | uniq > /sdcard/SHANI')
 		os.system('rm -rf /sdcard/1.txt')
-		os.system('rm -rf /sdcard/allinone.txt.txt')
-		os.system('rm -rf /sdcard/zahididz.txt')
+		os.system('rm -rf /sdcard/SHANI.txt.txt')
+		os.system('rm -rf /sdcard/SHANI.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("[✓] Removing successfully ..")
-		print ("[✓] Your file path : /storage/emulated/0/XAking.txt")
+		print ("[✓] Your file path : /storage/emulated/0/SHANI.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
-		os.system("python Brand.py")
+		os.system("python3 Haters.py")
 class login:
 	def __init__(self):
 		os.system("clear")
@@ -354,16 +354,16 @@ class msort:
 		link1 = input ("[?] Link 2 : ")
 		os.system('cat "'+file+'" | grep "'+link+'" > /sdcard/1.txt')
 		os.system('cat "'+file+'" | grep "'+link1+'" >> /sdcard/1.txt')
-		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/Xzahid.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/SHANI.txt')
 		os.system('rm -rf /sdcard/1.txt')
-		os.system('rm -rf /sdcard/allinone.txt.txt')
-		os.system('rm -rf /sdcard/zahididz.txt')
+		os.system('rm -rf /sdcard/SHANI.txt.txt')
+		os.system('rm -rf /sdcard/SHANI.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("\n[✓] Dumping and Sliced successfully ..")
-		print ("[✓] Your file path : /storage/emulated/0/Xzahid.txt")
+		print ("[✓] Your file path : /storage/emulated/0/SHANI.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
-		os.system("python Brand.py")
+		os.system("python3 Haters.py")
 class sort:
 	def __init__(self):
 		print(47*'-')
@@ -371,18 +371,18 @@ class sort:
 		print(47*'-')
 		link = input ("[?] Link 1 : ")
 		link1 = input ("[?] Link 2 : ")
-		os.system('cat /sdcard/allinone.txt | grep "'+link+'" > /sdcard/1.txt')
-		os.system('cat /sdcard/allinone.txt | grep "'+link1+'" >> /sdcard/1.txt')
-		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XZahid.txt')
+		os.system('cat /sdcard/SHANI.txt | grep "'+link+'" > /sdcard/1.txt')
+		os.system('cat /sdcard/SHANI.txt | grep "'+link1+'" >> /sdcard/1.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/SHANI.txt')
 		os.system('rm -rf /sdcard/1.txt')
-		os.system('rm -rf /sdcard/allinone.txt.txt')
-		os.system('rm -rf /sdcard/zahididz.txt')
+		os.system('rm -rf /sdcard/SHANI.txt.txt')
+		os.system('rm -rf /sdcard/SHANI.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("\n[✓] Dumping and Sliced successfully ..")
-		print ("[✓] Your file path : /storage/emulated/0/Xzahid.txt")
+		print ("[✓] Your file path : /storage/emulated/0/SHANI.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
-		os.system("python Brand.py")
+		os.system("python3 Haters.py")
 class msort:
 	def __init__(self):
 		print(47*'-')
@@ -393,16 +393,16 @@ class msort:
 		link1 = input ("[?] Link 2 : ")
 		os.system('cat "'+file+'" | grep "'+link+'" > /sdcard/1.txt')
 		os.system('cat "'+file+'" | grep "'+link1+'" >> /sdcard/1.txt')
-		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/Xzahid.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/SHANI.txt')
 		os.system('rm -rf /sdcard/1.txt')
-		os.system('rm -rf /sdcard/allinone.txt.txt')
-		os.system('rm -rf /sdcard/zahididz.txt')
+		os.system('rm -rf /sdcard/SHANI.txt.txt')
+		os.system('rm -rf /sdcard/SHANI.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("\n[✓] Dumping and Sliced successfully ..")
 		print ("[✓] Your file path : /storage/emulated/0/2.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
-		os.system("python Brand.py")
+		os.system("python3 Haters.py")
 	def __init__(self):
 		ba = 0
 		bi = 0
@@ -455,7 +455,7 @@ class coke:
 			_h=_p.group(1)
 			if 'EAA' in _h:open(".login.txt", 'w').write('%s' % (_h));open(".cokie.txt", 'w').write('%s' % (_cookie));bokep_barat_yang_terbaru(_cookie);bokep_barat_yang_terbaru(_h)
 		except (AttributeError, requests.exceptions.TooManyRedirects):print(war+'Cookies Error  ');time.sleep(3);coke()
-		exit(jalan(war+"Run This Script Again : python Nx.py"))
+		exit(jalan(war+"Run This Script Again : python3 Haters.py"))
 
 
 class bot_follow:
